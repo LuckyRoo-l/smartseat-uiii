@@ -38,6 +38,16 @@ body {
     z-index: -1;
 }
 
+.MyVideo {
+    position: relative;
+}
+
+.MyVideo{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
 .input-group {
   margin-top: 1.5em;
   text-align: left;
@@ -87,3 +97,4 @@ button:hover {
   color: #666;
   margin-top: 1em;
 }
+
